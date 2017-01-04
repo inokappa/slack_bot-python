@@ -1,0 +1,5 @@
+requests
+websocket-client
+slackclient
+feedparser
+toml

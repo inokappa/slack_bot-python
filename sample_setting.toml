@@ -1,0 +1,13 @@
+[common]
+interval = 1
+example_command = '教えて'
+
+[slack]
+api_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+bot_id    = 'XXXXXXXXXXX'
+
+[get_weather]
+uri = 'http://weather.livedoor.com/forecast/webservice/json/v1?city=400010'
+
+[train_delay]
+uri = 'http://api.tetsudo.com/traffic/atom.xml?qshu'
