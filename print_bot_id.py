@@ -1,9 +1,12 @@
 import os
+import sys
 from slackclient import SlackClient
 import toml
 
-BOT_NAME = 'pika'
 SETTING = toml.load(open('setting.toml'))
+
+args = sys.argv
+BOT_NAME = args[1]
 
 slack_client = SlackClient(SETTING['slack']['api_token'])
 
